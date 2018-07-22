@@ -24,14 +24,7 @@
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 
-.idea/checkstyle-idea.xml
-.idea/compiler.xml
-.idea/dictionaries/
-.idea/inspectionProfiles/
-.idea/misc.xml
-.idea/modules.xml
-.idea/uiDesigner.xml
-.idea/workspace.xml
 git
 jvmtest.iml
 target/
+.idea/
