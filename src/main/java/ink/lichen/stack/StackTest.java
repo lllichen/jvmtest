@@ -1,6 +1,6 @@
 package ink.lichen.stack;
 
-public class StackTest {
+public class StackTest extends BaseTest{
 
 
     private static int count = 0;
@@ -11,7 +11,7 @@ public class StackTest {
     }
 
     public static void main(String[] args) {
-        System.out.println("-Xmx"+Runtime.getRuntime().maxMemory()/1000/1000+"M");
+
 
         try{
             recursion();
