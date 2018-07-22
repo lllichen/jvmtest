@@ -1,7 +1,9 @@
-package ink.lichen.stack;
+package ink.lichen.memory;
+
+import ink.lichen.stack.BaseTest;
 
 //-Xss128K -Xmx16M -Xms16M -XX:+PrintGC
-public class LocalVarGC extends BaseTest{
+public class HistogramTest extends BaseTest {
 
 
     public void localVarGC1(){
@@ -39,13 +41,14 @@ public class LocalVarGC extends BaseTest{
         System.gc();;
     }
 
-    public static void main(String[] args) {
-        LocalVarGC gc = new LocalVarGC();
+    public static void main(String[] args) throws InterruptedException {
+        HistogramTest gc = new HistogramTest();
 //        gc.localVarGC1();
 //        gc.localVarGC2();
 //        gc.localVarGC3();
 //        gc.localVarGC4();
         gc.localVarGC5();
+        Thread.sleep(10*100000);
     }
 
 }
