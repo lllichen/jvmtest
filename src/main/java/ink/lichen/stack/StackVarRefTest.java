@@ -1,5 +1,7 @@
 package ink.lichen.stack;
 
+
+//-Xss128K -Xmx128M -Xms128M
 public class StackVarRefTest {
 
     private static Sample sample;

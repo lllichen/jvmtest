@@ -1,5 +1,6 @@
 package ink.lichen.stack;
 
+//-Xss128K -Xmx128M -Xms128M
 public class StackVarTest {
 
     private static int count = 0;
