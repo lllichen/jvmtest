@@ -11,6 +11,8 @@ public class StackTest {
     }
 
     public static void main(String[] args) {
+        System.out.println("-Xmx"+Runtime.getRuntime().maxMemory()/1000/1000+"M");
+
         try{
             recursion();
         }catch (Throwable e){
